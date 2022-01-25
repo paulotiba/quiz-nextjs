@@ -4,7 +4,7 @@ import Estatistica from '../components/Estatistica'
 import Botao from '../components/Botao'
 
 
-export default function resultado() {
+export default function Resultado() {
 
     const router = useRouter()
      
@@ -24,7 +24,7 @@ export default function resultado() {
          valor={`${percentual}%`} 
             corFundo="#DC143C"/>
         </div>
-        <Botao href='/' texto="Tentar Novamente"/>
+        <Botao onClick={Botao} href='/' texto="Tentar Novamente"/>
         </div>
     )
 }
